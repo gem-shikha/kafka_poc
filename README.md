@@ -14,5 +14,5 @@ Create topic-
 Produce the msg-
 .\bin\windows\kafka-console-producer.sh --topic <topic name> --bootstrap-server localhost:9092
 
-Consumer the msg-
+Consume the msg-
 .\bin\windows\kafka-console-consumer.bat --topic <topic name> --from-beginning --bootstrap-server localhost:9092
